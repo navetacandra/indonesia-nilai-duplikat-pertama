@@ -1,7 +1,6 @@
 function firstDuplicateValue(array) {
   // Write your code here
   if(!array[0]) {
-    console.log(-1);
     return -1;
   }
 
@@ -12,7 +11,6 @@ function firstDuplicateValue(array) {
     arr.push(v);
   })
   let firstDuplicated = dupe[0] || -1;
-  console.log(firstDuplicated);
   return firstDuplicated;
 }
 
